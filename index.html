@@ -5,18 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link href="./src/output.css" rel="stylesheet">
-  <script src="./script.js" defer></script>
 </head>
-<body class="bg-white dark:bg-black ">
+<body class="bg-white dark:bg-black">
   <header>
-    <div class="menu flex flex-col items-center w-4/5 mx-auto">
-      <button id="themeToggle">Toggle Theme</button>
-    </div>
+    <div id="button"></div>
   </header>
 
-  <div class="flex flex-col items-center w-4/5 mx-auto">
+  <div class="flex flex-col items-center w-4/5 mx-auto space-y-20">
     <section class="section1 w-full">
-      <h1 class="text-5xl font-bold text-center">Ady Harold</h1>
+      <h1 class="text-3xl font-bold">Hi, I'm <span class="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Ady</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl ac aliquet tincidunt, elit nunc tincidunt nunc, vitae tincidunt nisl nunc id nunc.</p>
     </section>
 
@@ -30,6 +27,7 @@
       <h3 class="text-2xl">
         Should I Have a BBQ?
       </h3>
+      <a href="https://shouldihaveabbq.com" target="_blank" rel="noopener noreferrer">shouldihaveabbq.com</a>
       <img src="https://via.placeholder.com/150" alt="Should I Have a BBQ?" />
       <p>This simple project is built in React and consumes two APIs to give the user a fun way to get the weather in their area.</p>
     </section>
@@ -44,13 +42,6 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl ac aliquet tincidunt, elit nunc tincidunt nunc, vitae tincidunt nisl nunc id nunc.</p>
     </section>
   </div>
-<!-- 
-  <script>
-    const themeToggle = document.querySelector('#themeToggle');
-  
-    themeToggle.addEventListener('click', () => {
-      document.documentElement.classList.toggle('dark');
-    });
-  </script> -->
+  <script type="module" src="./src/main.jsx"></script>
 </body>
 </html>
