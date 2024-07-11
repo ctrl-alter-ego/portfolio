@@ -1,13 +1,30 @@
 /** @type {import('tailwindcss').Config} */
 export const content = ["./index.html", "./src/**/*.{html,js,ts,jsx,tsx}"];
 export const theme = { 
-  extend: {},
+  extend: {
+    fontSize: {
+      '6xl': '4rem',
+      '8xl': '6rem',
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'black': '#000000',
+      'white': '#ffffff',
+      'lightpurple': '#cfa1ff',
+      'midpurple': '#764ba2',
+      'darkpurple': '#7978FF',
+      'lightblue': '#57eaef',
+      'midblue': '#0291ff',
+      'darkblue': '#1a202c',
+    },
+  },
   container: {
     // center: true,
   },
   fontFamily: {
-    'sans': [ 'ui-sans-serif', 'system-ui', 'sans-serif', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ],
-  }
+    'display': [ 'Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ],
+  },
 }; 
 export const darkMode = 'selector';
 export const plugins = [];
