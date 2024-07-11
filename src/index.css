@@ -66,6 +66,40 @@ body {
   opacity: 1;
 }
 
+.contact-form-wrapper {
+  padding: 20px 0;
+}
+
+.contact-form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.contact-form-wrapper .form-group {
+  gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.contact-form-wrapper .form-group input, .contact-form-wrapper .form-group textarea {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  outline: none;
+  border: 1px solid #764ba2;
+  resize: none;
+  border-radius: 6px;
+  background-color: white;
+  padding: 8px 12px;
+  color: #000;
+}
+
 @media screen and (min-width: 640px) {
   body {
     min-width: 640px;

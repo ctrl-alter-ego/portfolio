@@ -35,11 +35,12 @@
         });
       });
     });
-  </script>
+    </script>
+    
 </head>
 <body class="bg-white text-black dark:bg-black dark:text-white">
   <!-- <header> -->
-    <nav class="flex justify-end items-center space-x-4 w-3/5 mx-auto p-4">
+    <nav class="flex flex-row flex-wrap justify-end items-center space-x-4 lg:w-3/5 w-screen mx-auto p-4">
       <div class="logo"></div>
       <a href="#section1">About</a>
       <a href="#section2">Projects</a>
@@ -54,7 +55,7 @@
     </nav>
   <!-- </header> -->
 
-  <div class="flex flex-col items-center w-3/5 mx-auto space-y-20">
+  <div class="flex flex-col items-center lg:w-3/5 w-screen mx-auto space-y-20 p-4">
     <section class="section1 w-full flex flex-col gap-4">
       <h1 class="text-6xl font-bold"><span class="text-8xl bg-gradient-to-br from-midblue to-lightblue bg-clip-text text-transparent">Hi, I'm Ady</span> 👋</h1>
       <p>Proficient in frontend technology including React & TypeScript. Seasoned "T-shaped" technical leader with over 14 years of customer-facing experience. Proven talent for improving and automating processes. Expertise in Product Management, UX, & QA.</p>
@@ -83,7 +84,7 @@
     <section id="section2" class="section2 w-full flex flex-col gap-6">
       <h2 class="text-3xl">Projects</h2>
 
-      <div class="flex flex-row items-start gap-6">
+      <div class="flex flex-col md:flex-row items-start gap-6">
         <!-- <img src="./src/assets/acclaim-ideas-sm.png" alt="Image of SaaS app Acclaim Ideas" class="rounded-lg"/> -->
         <div class="video-container">
           <video class="rounded-lg" width="1200" height="450" preload="none" poster="./src/assets/acclaim-ideas-sm.png" loop muted>
@@ -104,7 +105,7 @@
         </div>
       </div>
 
-      <div class="flex flex-row items-start gap-6">
+      <div class="flex flex-col md:flex-row gap-6">
         <div class="image-container">
           <a href="https://shouldihaveabbq.com" target="_blank" rel="noopener noreferrer">
             <img src="./src/assets/bbq.png" alt="Image of a weather website called 'Should I Have a BBQ?'" width="670" class="rounded-lg"/>
@@ -126,7 +127,7 @@
         </div>
       </div>
 
-      <div class="flex flex-row items-start gap-6">
+      <div class="flex flex-col md:flex-row gap-6">
         <!-- <img src="https://dummyimage.com/300/fff/000" alt="Image of the Jot Ideas Chrome Extension" class="rounded-lg"/> -->
         <div class="video-container">
           <video class="rounded-lg" width="1450" height="450" preload="none" poster="./src/assets/jot-ideas.png" loop muted>
@@ -148,7 +149,7 @@
         </div>
       </div>
 
-      <div class="flex flex-row items-start gap-6">
+      <div class="flex flex-col md:flex-row gap-6">
         <div class="image-container">
           <a href="https://fastfolio.netlify.app" target="_blank" rel="noopener noreferrer">
             <img src="./src/assets/fastfolio.png" alt="Image of a website called 'fastfolio'" width="890" class="rounded-lg"/>
@@ -173,19 +174,88 @@
 
     <section id="section3" class="section3 w-full">
       <h2 class="text-3xl">Skills</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl ac aliquet tincidunt, elit nunc tincidunt nunc, vitae tincidunt nisl nunc id nunc.</p>
+      <p>With over 15 years of professional experience across multiple disclipines, there's a few too many to list here! Please see my <a href="https://www.linkedin.com/in/adyharold" target="_blank" title="Linkedin profile">Linkedin</a> profile for more.</p>
       <br>
-      <button class="rounded-lg gradient-border border-transparent px-3 py-2 text-base font-medium dark:bg-black text-white 
+      <button class="rounded-full gradient-border border-transparent px-3 py-2 my-2 text-base font-medium dark:bg-black text-white 
             cursor-pointer hover:gradient-border transition-all ease-linear duration-2000 focus:outline-none">HTML</button>
-      <button class="gradient-border rounded-lg border-transparent px-3 py-2 text-base font-medium dark:bg-black text-white 
+      <button class="rounded-full gradient-border border-transparent px-3 py-2 my-2 text-base font-medium dark:bg-black text-white 
       cursor-pointer hover:gradient-border transition-all ease-linear duration-2000 focus:outline-none">CSS</button>
+      <button class="rounded-full gradient-border border-transparent px-3 py-2 my-2 text-base font-medium dark:bg-black text-white 
+      cursor-pointer hover:gradient-border transition-all ease-linear duration-2000 focus:outline-none">React</button>
+      <button class="rounded-full gradient-border border-transparent px-3 py-2 my-2 text-base font-medium dark:bg-black text-white 
+      cursor-pointer hover:gradient-border transition-all ease-linear duration-2000 focus:outline-none">Typescript</button>
+      <button class="rounded-full gradient-border border-transparent px-3 py-2 my-2 text-base font-medium dark:bg-black text-white 
+      cursor-pointer hover:gradient-border transition-all ease-linear duration-2000 focus:outline-none">Figma</button>
+      <button class="rounded-full gradient-border border-transparent px-3 py-2 my-2 text-base font-medium dark:bg-black text-white 
+      cursor-pointer hover:gradient-border transition-all ease-linear duration-2000 focus:outline-none">Storybook</button>
     </section>
 
-    <section id="section4" class="section4 w-full">
+    <section id="section4" class="section4 w-full contact-form-wrapper">
       <h2 class="text-3xl">Contact</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl ac aliquet tincidunt, elit nunc tincidunt nunc, vitae tincidunt nisl nunc id nunc.</p>
+      <p>I'm always happy to chat - drop me a line below.</p>
+      <div class="contact-form-wrapper">
+        <form id="form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="918b5035-2fc0-44db-ad4f-5a3f9602cac9">
+      
+          <div class="form-group">
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          </div>
+          <div id="result"></div>
+      
+          <!-- Custom Confirmation / Success Page -->
+          <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+      
+          <button class="rounded-lg gradient-border border-transparent px-3 py-2 text-base font-medium dark:bg-black text-white 
+          cursor-pointer hover:gradient-border transition-all ease-linear duration-2000 focus:outline-none"  type="submit">Send</button>
+        </form>
+      </div>
     </section>
   </div>
   <script type="module" src="./src/main.jsx"></script>
+  <script>
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+      result.innerHTML = "Please wait..."
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        },
+        body: json
+      })
+      .then(async (response) => {
+        let json = await response.json();
+        if (response.status == 200) {
+            result.innerHTML = json.message;
+        } else {
+            console.log(response);
+            result.innerHTML = json.message;
+        }
+      })
+      .catch(error => {
+        console.log(error);
+        result.innerHTML = "Something went wrong!";
+      })
+      .then(function() {
+        form.reset();
+        setTimeout(() => {
+            result.style.display = "none";
+        }, 3000);
+      });
+    });
+</script>
 </body>
 </html>
