@@ -934,23 +934,6 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
-  /* Fallback for dark mode */
-
-  @media (prefers-color-scheme: dark) {
-    .section1 h1 span {
-      /* Fallback to a lighter text color that works on dark backgrounds */
-      background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
-      --tw-gradient-from: #0291ff var(--tw-gradient-from-position);
-      --tw-gradient-to: #57eaef var(--tw-gradient-to-position);
-      --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-      -webkit-background-clip: text;
-              background-clip: text;
-      /* color: #E2E8F0; */
-    }
-  }
-}
-
 .hover\:fill-midpurple:hover {
   fill: #764ba2;
 }
