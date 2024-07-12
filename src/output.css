@@ -696,6 +696,10 @@ video {
   margin-bottom: calc(5rem * var(--tw-space-y-reverse));
 }
 
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
