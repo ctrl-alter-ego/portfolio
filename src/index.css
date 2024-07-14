@@ -23,7 +23,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  @apply text-midpurple;
+  @apply text-midblue;
 }
 
 body {

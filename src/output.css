@@ -736,8 +736,8 @@ video {
           background-clip: text;
 }
 
-.fill-white {
-  fill: #ffffff;
+.fill-darkpurple {
+  fill: #7978FF;
 }
 
 .p-0 {
@@ -849,7 +849,7 @@ a {
 
 a:hover {
   --tw-text-opacity: 1;
-  color: rgb(118 75 162 / var(--tw-text-opacity));
+  color: rgb(2 145 255 / var(--tw-text-opacity));
 }
 
 body {
@@ -934,8 +934,8 @@ body {
   }
 }
 
-.hover\:fill-midpurple:hover {
-  fill: #764ba2;
+.hover\:fill-midblue:hover {
+  fill: #0291ff;
 }
 
 .focus\:outline-none:focus {
@@ -958,6 +958,10 @@ body {
 .dark\:bg-black:where(.dark, .dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.dark\:fill-white:where(.dark, .dark *) {
+  fill: #ffffff;
 }
 
 .dark\:text-white:where(.dark, .dark *) {
