@@ -18,6 +18,7 @@ export const theme = {
       'lightblue': '#57eaef',
       'midblue': '#0291ff',
       'darkblue': '#1a202c',
+      'yellow': '#f7d070',
     },
   },
   container: {
