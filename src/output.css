@@ -558,6 +558,12 @@ video {
   width: 100%;
 }
 
+@media (min-width: 425px) {
+  .container {
+    max-width: 425px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -622,6 +628,10 @@ video {
   margin-top: 3.5rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -677,6 +687,26 @@ video {
   width: 100vw;
 }
 
+.max-w-96 {
+  max-width: 24rem;
+}
+
+.max-w-40 {
+  max-width: 10rem;
+}
+
+.max-w-24 {
+  max-width: 6rem;
+}
+
+.max-w-80 {
+  max-width: 20rem;
+}
+
+.max-w-60 {
+  max-width: 15rem;
+}
+
 .flex-none {
   flex: none;
 }
@@ -709,6 +739,10 @@ video {
   align-content: flex-start;
 }
 
+.content-end {
+  align-content: flex-end;
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -727,6 +761,10 @@ video {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .gap-2 {
@@ -759,6 +797,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .overflow-hidden {
@@ -885,6 +927,10 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -895,12 +941,14 @@ video {
   line-height: 2.25rem;
 }
 
-.text-6xl {
-  font-size: 4rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.text-8xl {
-  font-size: 6rem;
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-base {
@@ -1045,14 +1093,37 @@ body {
   outline-offset: 2px;
 }
 
+@media (min-width: 425px) {
+  .xs\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:items-end {
+    align-items: flex-end;
+  }
+
+  .sm\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:flex-row {
     flex-direction: row;
   }
+
+  .md\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
 }
 
-@media (min-width: 1024px) {
-  .lg\:w-3\/5 {
+@media (min-width: 1280px) {
+  .xl\:w-3\/5 {
     width: 60%;
   }
 }
