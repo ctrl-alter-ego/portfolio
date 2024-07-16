@@ -10,6 +10,8 @@ export const theme = {
       transparent: 'transparent',
       current: 'currentColor',
       'black': '#000000',
+      'lightgray': '#f3f3f3',
+      'darkgray': '#292929',
       'gray': '#1e1e1e',
       'white': '#ffffff',
       'lightpurple': '#cfa1ff',
