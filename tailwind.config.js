@@ -15,7 +15,7 @@ export const theme = {
       'white': '#ffffff',
       'lightpurple': '#cfa1ff',
       'midpurple': '#764ba2',
-      'darkpurple': '#7978FF',
+      'darkpurple': '#6161FF',
       'lightblue': '#57eaef',
       'midblue': '#0291ff',
       'darkblue': '#1a202c',

@@ -792,7 +792,7 @@ video {
 
 .border-darkpurple {
   --tw-border-opacity: 1;
-  border-color: rgb(121 120 255 / var(--tw-border-opacity));
+  border-color: rgb(97 97 255 / var(--tw-border-opacity));
 }
 
 .border-gray {
@@ -838,7 +838,7 @@ video {
 }
 
 .fill-darkpurple {
-  fill: #7978FF;
+  fill: #6161FF;
 }
 
 .fill-gray {
@@ -950,7 +950,7 @@ video {
 a {
   font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(121 120 255 / var(--tw-text-opacity));
+  color: rgb(97 97 255 / var(--tw-text-opacity));
   text-decoration: inherit;
 }
 
