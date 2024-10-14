@@ -615,6 +615,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -724,6 +728,10 @@ video {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-2 {
@@ -957,6 +965,12 @@ a {
 a:hover {
   --tw-text-opacity: 1;
   color: rgb(2 145 255 / var(--tw-text-opacity));
+}
+
+ul, li {
+  list-style: disc;
+  padding: 0;
+  margin: 0 0 0 10px;
 }
 
 body {
