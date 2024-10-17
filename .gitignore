@@ -1,0 +1,5 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Vite temporary files
+node_modules/.vite/deps_temp_*
